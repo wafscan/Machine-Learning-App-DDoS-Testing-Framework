@@ -1,0 +1,22 @@
+{
+  "baseline": {
+    "description": "Ordinary synthetic application traffic with varied clients, paths, and user-agent families.",
+    "label": "normal"
+  },
+  "rate_deviation": {
+    "description": "A subset of synthetic clients has a shorter inter-arrival interval than the baseline.",
+    "label": "behavioral_deviation"
+  },
+  "client_concentration": {
+    "description": "Synthetic requests are concentrated among fewer client identities.",
+    "label": "behavioral_deviation"
+  },
+  "path_concentration": {
+    "description": "Synthetic requests are concentrated on a small subset of application paths.",
+    "label": "behavioral_deviation"
+  },
+  "user_agent_shift": {
+    "description": "The distribution of synthetic user-agent families changes from the baseline.",
+    "label": "behavioral_deviation"
+  }
+}

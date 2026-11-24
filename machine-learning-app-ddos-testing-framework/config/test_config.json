@@ -1,0 +1,13 @@
+{
+  "seed": 42,
+  "events_per_scenario": 250,
+  "start_time_utc": "2026-01-01T12:00:00Z",
+  "output_directory": "output",
+  "scenarios": [
+    "baseline",
+    "rate_deviation",
+    "client_concentration",
+    "path_concentration",
+    "user_agent_shift"
+  ]
+}
